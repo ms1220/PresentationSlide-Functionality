@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Iteration2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">return to previous track</string>
+    <string name="play">play song</string>
+    <string name="forward">change track</string>
+    <string name="mute">mute</string>
+    <string name="action_sound_control">Sound Control</string>
+
+</resources>

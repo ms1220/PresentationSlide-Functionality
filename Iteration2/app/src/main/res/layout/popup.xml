@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:weightSum="1"
+        android:id="@+id/layout"
+        android:gravity ="center_horizontal"
+        android:layout_height="wrap_content">
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/back"
+            android:id="@+id/back"
+            android:background="@android:drawable/ic_media_rew"
+            android:onClick="backTrack"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/mute"
+            android:layout_height="match_parent"
+            android:id="@+id/muteButton"
+            android:background="@android:drawable/ic_lock_silent_mode_off"
+            android:onClick="mute"
+            />
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/play"
+            android:id="@+id/playButton"
+            android:background="@android:drawable/ic_media_play"
+            android:onClick="playMusic"
+            />
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/forward"
+            android:id="@+id/button3"
+            android:background="@android:drawable/ic_media_ff"
+            android:onClick="forwardTrack"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hide"
+            android:background="@drawable/abc_ic_commit_search_api_mtrl_alpha"
+            android:onClick="dismissPopUp"/>
+    </LinearLayout>
+</LinearLayout>
